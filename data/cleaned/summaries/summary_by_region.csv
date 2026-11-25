@@ -1,0 +1,278 @@
+region,count,mean_mag,max_mag
+Indonesia,3032,4.79,7.8
+Russia,2535,4.82,7.8
+Japan,2282,4.79,7.4
+Philippines,2261,4.78,7.8
+Papua New Guinea,1453,4.82,7.0
+Tonga,1270,4.83,7.6
+Vanuatu,1110,4.84,7.3
+Fiji,994,4.74,6.7
+South Sandwich Islands,844,4.83,6.4
+Kermadec Islands,781,4.78,7.0
+Mid-Atlantic Ridge,713,4.84,6.8
+Chile,628,4.79,7.4
+Alaska,559,4.89,6.5
+China,503,4.76,7.0
+Solomon Islands,438,4.82,6.4
+New Zealand,418,4.84,7.1
+Argentina,411,4.76,6.8
+Mariana Islands,408,4.75,6.9
+Peru,407,4.8,7.2
+Mexico,373,4.87,7.3
+Taiwan,351,4.84,7.4
+Loyalty Islands,338,4.82,7.7
+Mid-Indian Ridge,331,4.74,5.8
+Turkey,296,4.81,7.8
+India,269,4.76,6.0
+Greece,264,4.74,6.2
+Guam,252,4.75,6.0
+East Pacific Rise,251,4.9,6.6
+Panama,229,4.84,7.7
+Timor Leste,215,4.75,6.2
+New Caledonia,197,4.79,6.7
+Colombia,191,4.74,7.4
+Afghanistan,177,4.89,6.5
+Iran,175,4.76,5.9
+Pacific-Antarctic Ridge,170,4.92,6.3
+Reykjanes Ridge,167,4.81,6.9
+Ethiopia,162,4.69,5.9
+Banda Sea,151,4.78,7.1
+Easter Island,142,4.85,6.4
+Kuril Islands,131,4.77,6.8
+Macquarie Island,130,5.01,7.0
+Indian-Antarctic Ridge,118,4.79,6.2
+Ecuador,111,4.81,6.8
+Southwest Indian Ridge,106,4.75,6.2
+El Salvador,102,4.81,6.5
+Nicaragua,97,4.73,5.6
+West Chile Rise,96,4.84,6.1
+Guatemala,95,4.84,6.4
+Tajikistan,91,4.74,6.9
+Balleny Islands,88,4.96,5.9
+Ascension Island,87,4.79,5.6
+Micronesia,84,4.79,6.0
+Southeast Indian Ridge,81,4.86,6.6
+Burma (Myanmar),80,4.76,6.7
+Carlsberg Ridge,78,4.74,5.6
+Venezuela,78,4.77,7.5
+Africa,75,4.84,6.6
+Iceland,75,4.77,5.4
+Pakistan,67,4.78,5.7
+Drake Passage,66,4.88,7.6
+Costa Rica,63,4.8,6.2
+Wallis and Futuna,62,4.8,6.6
+Bolivia,58,4.7,5.7
+Somalia,53,4.81,5.9
+Canada,48,4.97,6.5
+Nepal,44,4.83,5.7
+Tanzania,42,4.72,5.5
+Scotia Sea,41,4.86,6.6
+California,41,4.85,5.59
+Myanmar,41,4.76,5.9
+Xizang,40,4.76,5.9
+Portugal,40,4.74,5.3
+Chagos Archipelago,38,4.72,5.5
+South Indian Ocean,37,4.84,6.1
+Svalbard and Jan Mayen,36,4.81,6.5
+Guadeloupe,35,4.82,6.5
+Prince Edward Islands,34,5.0,6.8
+Italy,34,4.86,6.2
+Oregon,33,5.01,6.0
+Australia,31,4.75,5.5
+Kyrgyzstan,30,4.74,5.8
+Central America,29,4.73,5.7
+Owen Fracture Zone,28,4.82,5.9
+Yemen,28,4.77,5.3
+Honduras,26,4.74,5.5
+Tibetan Plateau,24,4.8,5.2
+Mauritius,22,4.68,5.1
+North Island of New Zealand,22,4.71,5.3
+Galapagos Triple Junction,21,4.72,5.2
+South Atlantic Ocean,21,4.83,5.2
+Bouvet Island,20,4.86,5.9
+Molucca Sea,20,4.66,5.2
+Saint Helena,19,4.91,5.5
+Indian Ocean Triple Junction,19,4.66,5.6
+Dominican Republic,18,4.96,5.85
+Samoa,17,4.79,5.3
+South Shetland Islands,17,4.9,6.5
+Kazakhstan,16,4.63,5.2
+Azores Islands,16,4.69,5.3
+Eritrea,15,4.85,5.6
+Federated States of Micronesia,15,4.94,5.9
+Revilla Gigedo Islands,15,5.19,5.8
+Mongolia,14,4.81,5.5
+Greenland Sea,14,4.81,5.7
+Tristan da Cunha,14,5.06,5.6
+Svalbard,14,4.76,5.5
+Azerbaijan,14,4.94,5.6
+Galapagos Islands,14,4.66,5.3
+Mauritius - Reunion,13,4.97,6.3
+Saudi Arabia,13,4.71,5.2
+Cuba,13,5.29,6.8
+South Georgia Island,13,4.75,5.2
+Malta,13,4.93,5.5
+Hawaii,13,4.91,5.96
+Turkmenistan,12,4.72,5.1
+Democratic Republic of the Congo,12,4.66,5.2
+Severnaya Zemlya,12,4.91,5.2
+Greenland,11,4.68,5.1
+Romania,11,4.86,5.6
+Uganda,10,4.59,4.9
+Texas,10,4.83,5.2
+Morocco,10,4.9,6.8
+Brazil,10,5.12,6.6
+Santa Cruz Islands,10,4.65,5.1
+North Atlantic Ocean,9,4.72,4.9
+Poland,9,4.6,4.9
+Cyprus,9,4.83,5.3
+Cayman Islands,8,5.16,7.6
+Norwegian Sea,8,4.86,5.5
+Uzbekistan,8,4.6,4.9
+Vietnam,8,4.62,5.1
+Puerto Rico,8,4.85,5.6
+Spain,7,4.76,5.2
+East central Pacific Ocean,7,4.7,5.6
+U.S. Virgin Islands,7,4.99,5.7
+Off the west coast of northern Sumatra,7,4.97,5.7
+Algeria,7,4.67,5.0
+South Africa,7,4.77,5.2
+Madagascar,7,4.8,5.3
+Nevada,6,4.94,5.68
+Falkland Islands,6,4.83,5.1
+Albania,6,4.62,4.9
+Anguilla,6,4.77,5.2
+Antigua and Barbuda,6,5.33,6.6
+Oman,6,4.67,4.9
+Syria,6,4.7,5.2
+Djibouti,6,4.73,5.4
+MX,5,4.69,4.89
+Malaysia,5,5.42,7.1
+Sea of Okhotsk,5,4.88,5.9
+Martinique,5,4.74,5.1
+Philippine Islands,4,5.35,6.2
+Sudan,4,4.62,4.8
+Palau,4,4.6,4.7
+Tunisia,4,4.82,5.1
+Off the east coast of the North Island of New Zealand,4,4.75,5.0
+North Pacific Ocean,4,4.75,5.0
+Malawi,4,4.53,4.6
+Zimbabwe,4,4.72,4.9
+Barbados,4,5.18,5.6
+Jamaica,4,4.88,5.4
+Japan Earthquake,4,7.25,7.6
+Bosnia and Herzegovina,4,4.8,5.4
+Bangladesh,3,5.3,5.5
+Pacific Ocean,3,4.73,4.8
+Alaska Peninsula,3,4.77,5.1
+Samoa Islands,3,4.63,4.9
+Norway,3,4.53,4.6
+Northern Peru,3,4.6,4.6
+Franz Josef Land,3,4.9,5.2
+Ukraine,3,4.67,4.8
+Bhutan,3,4.97,5.6
+American Samoa,3,4.9,5.2
+Trinidad and Tobago,3,4.9,5.2
+Turkey-Syria border,3,4.93,5.6
+Iraq,3,4.8,5.1
+Zambia,3,4.67,4.7
+Southeast central Pacific Ocean,3,5.0,5.2
+Gulf of Aden,2,4.9,4.9
+Gulf of California,2,5.5,6.4
+Russia Earthquake,2,8.1,8.8
+Grenada,2,4.5,4.5
+Gabon,2,4.6,4.6
+Bismarck Sea,2,5.85,5.9
+Georgia,2,4.8,4.9
+French Polynesia,2,4.8,4.8
+Tajikistan-Xinjiang border,2,4.75,5.0
+Socotra,2,4.55,4.6
+Flores Sea,2,5.1,5.2
+Davis Strait,2,4.65,4.8
+Croatia,2,4.65,4.7
+Burma,2,4.55,4.6
+South Island of New Zealand,2,4.5,4.5
+South Pacific Ocean,2,4.95,5.2
+Chile-Bolivia border,2,4.7,4.9
+Burundi,2,4.85,5.2
+Haiti,2,5.15,5.4
+Near the north coast of Greenland,2,5.15,5.8
+Southwestern Atlantic Ocean,2,4.75,4.9
+Mozambique Channel,2,4.65,4.8
+Mayotte,2,4.55,4.6
+Mozambique,2,4.7,4.8
+Libya,2,4.5,4.5
+Alaska Earthquake,2,7.25,7.3
+Leeward Islands,2,4.6,4.6
+New Mexico,2,5.05,5.4
+Off the west coast of the South Island of New Zealand,2,4.55,4.6
+Arctic Ocean,2,4.65,4.7
+Namibia,2,4.95,5.0
+Azores-Cape St. Vincent Ridge,2,5.15,5.5
+Kenya,2,4.65,4.7
+Iran-Iraq border,2,4.55,4.6
+North Indian Ocean,2,4.6,4.7
+Burma (Myanmar) Earthquake,1,7.7,7.7
+2025 Southern Drake Passage Earthquake,1,7.5,7.5
+Broken Ridge,1,4.8,4.8
+California Earthquake,1,7.0,7.0
+Xizang-Qinghai border,1,4.6,4.6
+Bulgaria,1,4.6,4.6
+Taiwan Earthquake,1,6.0,6.0
+2025 Southern Tibetan Plateau Earthquake,1,7.1,7.1
+Aegean Sea,1,4.6,4.6
+Wyoming,1,4.65,4.65
+Western Turkey,1,4.6,4.6
+Botswana,1,4.6,4.6
+Bay of Bengal,1,4.7,4.7
+Washington,1,4.5,4.5
+Virgin Islands,1,4.5,4.5
+Texas Earthquake,1,5.1,5.1
+Angola,1,5.1,5.1
+Timor,1,4.8,4.8
+Antarctica,1,4.9,4.9
+Arafura Sea,1,4.9,4.9
+Beaufort Sea,1,5.3,5.3
+Cape Verde,1,5.3,5.3
+Slovakia,1,5.0,5.0
+Caribbean Sea,1,5.4,5.4
+Panama-Colombia border,1,4.5,4.5
+Kosovo,1,4.5,4.5
+Kyrgyzstan-Xinjiang border,1,5.1,5.1
+Lake Almanor Earthquake,1,5.48,5.48
+Laos,1,4.5,4.5
+Laptev Sea,1,4.6,4.6
+Oklahoma,1,5.06,5.06
+Off the south coast of Australia,1,5.1,5.1
+Off the east coast of the United States,1,4.5,4.5
+Off the east coast of the South Island of New Zealand,1,4.9,4.9
+Lomonosov Ridge,1,4.9,4.9
+Louisiana Earthquake,1,4.9,4.9
+North Korea,1,4.9,4.9
+2025 Hubbard Glacier Earthquake,1,7.0,7.0
+Maldives,1,4.6,4.6
+New Siberian Islands,1,4.6,4.6
+New Jersey Earthquake,1,4.8,4.8
+Nevada Earthquake,1,5.71,5.71
+Kiribati,1,5.0,5.0
+Pitcairn Islands,1,4.9,4.9
+Southeastern China,1,4.6,4.6
+India-Bangladesh border,1,5.0,5.0
+Celebes Sea,1,4.5,4.5
+South Sudan,1,4.8,4.8
+Chile-Argentina border,1,4.6,4.6
+Colombia-Ecuador border,1,4.5,4.5
+South Georgia Rise,1,4.6,4.6
+Congo-Uganda,1,4.7,4.7
+Egypt,1,5.0,5.0
+Near the north coast of Colombia,1,5.2,5.2
+France,1,4.8,4.8
+French Southern Territories,1,5.2,5.2
+Saint Vincent and the Grenadines,1,4.8,4.8
+Saint Kitts and Nevis,1,4.7,4.7
+Rwanda,1,4.5,4.5
+Guinea,1,4.7,4.7
+Gulf of Alaska,1,4.7,4.7
+Guyana,1,4.5,4.5
+Idaho,1,4.9,4.9
+2025 Drake Passage Earthquake,1,7.4,7.4

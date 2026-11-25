@@ -1,0 +1,4 @@
+id,mag,magType,net,place,time,updated,type,status,tsunami,sig,felt,cdi,mmi,alert,nst,gap,dmin,longitude,latitude,depth_km,is_test_record,validation_errors
+testbadmag,15.0,mb,us,"23 km ESE of Manay, Philippines",1672537303755,1678575105040,earthquake,reviewed,0,312,,,,,32.0,104.0,1.152,126.738,7.1397,79.194,True,"in_range(4.5, 10.0)"
+testbadtime,4.5,mb,us,"23 km ESE of Manay, Philippines",1827008703786,1827008703786,earthquake,reviewed,0,312,,,,,32.0,104.0,1.152,126.738,7.1397,79.194,True,less_than_or_equal_to(1795472703786)
+testbadlat,4.5,mb,us,"23 km ESE of Manay, Philippines",1672537303755,1678575105040,earthquake,reviewed,0,312,,,,,32.0,104.0,1.152,126.738,200.0,79.194,True,"in_range(-90, 90)"

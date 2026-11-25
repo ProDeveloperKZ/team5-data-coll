@@ -13582,7 +13582,7 @@ us7000nx46,4.9,mb,us,"107 km SSW of Adak, Alaska",1733688079769,1739644267040,ea
 us7000nx47,4.9,mb,us,"113 km SSW of Adak, Alaska",1733689438857,1739644267040,earthquake,reviewed,0,369,,,,,111.0,126.0,0.814,-177.3217,50.9506,10.0
 us7000nx4r,5.1,mb,us,central East Pacific Rise,1733689647630,1739644269040,earthquake,reviewed,0,400,,,,,148.0,148.0,17.887,-109.7729,-9.1484,10.0
 us7000nx4d,5.4,mww,us,"98 km SSW of Adak, Alaska",1733690360454,1739644268040,earthquake,reviewed,0,449,,,3.782,green,130.0,55.0,0.787,-177.2241,51.0688,10.0
-us7000nx4k,5.8,mww,us,"124 km SSW of Adak, Alaska",1733691769063,1795481017247,earthquake,reviewed,1,518,1.0,2.0,3.044,green,130.0,128.0,1.001,-177.2981,50.8303,10.0
+us7000nx4k,5.8,mww,us,"124 km SSW of Adak, Alaska",1733691769063,1784317695767,earthquake,reviewed,1,518,1.0,2.0,3.044,green,130.0,128.0,1.001,-177.2981,50.8303,10.0
 us7000nx4z,4.6,mb,us,"109 km SSW of Adak, Alaska",1733694158333,1739644271040,earthquake,reviewed,0,326,,,,,77.0,80.0,0.897,-177.2237,50.9588,10.0
 us7000p0ca,4.5,mb,us,"187 km NW of Sola, Vanuatu",1733702194378,1739644312040,earthquake,reviewed,0,312,,,,,13.0,200.0,2.92,166.3883,-12.6187,35.0
 us7000nx5r,6.3,mww,us,"104 km SSW of Adak, Alaska",1733703330691,1739908968040,earthquake,reviewed,1,611,1.0,0.0,4.376,green,147.0,40.0,0.765,-177.1779,50.9985,19.0
@@ -22050,7 +22050,7 @@ us7000reya,5.1,mww,us,"58 km WNW of Kirakira, Solomon Islands",1764619512930,177
 us7000reyi,4.9,mb,us,"82 km NE of Tadine, New Caledonia",1764623539958,1772036321040,earthquake,reviewed,0,370,1.0,2.2,,,40.0,90.0,1.796,168.5224,-21.1132,10.0
 us6000rvqs,4.6,mb,us,Kermadec Islands region,1764626857251,1772036321040,earthquake,reviewed,0,326,,,,,30.0,164.0,10.884,-175.9607,-27.1652,10.0
 us6000rvqt,4.5,mb,us,"39 km WSW of San Nicolas, Philippines",1764627077462,1772036321040,earthquake,reviewed,0,312,,,,,48.0,99.0,8.111,119.7692,14.7587,10.0
-us7000rez4,5.1,mww,us,"79 km SE of Atka, Alaska",1764627667810,1795473069542,earthquake,reviewed,0,401,2.0,2.7,,,95.0,106.0,0.719,-173.4586,51.648,35.0
+us7000rez4,5.1,mww,us,"79 km SE of Atka, Alaska",1764627667810,1794868277196,earthquake,reviewed,0,401,2.0,2.7,,,95.0,106.0,0.719,-173.4586,51.648,35.0
 us7000rezc,5.2,mww,us,Kermadec Islands region,1764630484871,1772036321040,earthquake,reviewed,0,416,,,,,51.0,66.0,11.271,-176.4363,-27.1082,35.0
 us6000rvqm,4.5,mb,us,Kermadec Islands region,1764630991045,1772036321040,earthquake,reviewed,0,312,,,,,13.0,198.0,10.634,-176.8501,-27.3275,35.0
 us7000rezi,4.9,mww,us,"29 km WNW of Yuyapichis, Peru",1764631618600,1772036321040,earthquake,reviewed,0,370,3.0,2.7,,,84.0,68.0,2.9,-75.2302,-9.5429,108.152
@@ -22324,7 +22324,7 @@ us6000rv18,4.9,mww,us,"57 km SSE of Adak, Alaska",1765821831843,1773181123040,ea
 us6000rv1u,5.7,mww,us,"229 km SE of Petropavlovsk-Kamchatsky, Russia",1765827187552,1773181123040,earthquake,reviewed,0,500,,,3.488,green,120.0,42.0,2.03,161.2012,51.7312,34.0
 us6000rv2c,5.0,mb,us,Southwest Indian Ridge,1765828111030,1773181123040,earthquake,reviewed,0,385,,,,,63.0,52.0,8.528,62.7506,-28.3037,10.0
 us6000rv2d,4.8,mb,us,"38 km NW of Gadani, Pakistan",1765828259270,1773181123040,earthquake,reviewed,0,357,7.0,3.1,,,60.0,78.0,9.348,66.512,25.405,10.0
-us6000rv4q,5.6,mww,us,"90 km SSE of San Jose Village, Northern Mariana Islands",1765839972207,1795475778882,earthquake,reviewed,0,496,32.0,4.3,3.865,green,91.0,24.0,1.058,145.8188,14.17,80.0
+us6000rv4q,5.6,mww,us,"90 km SSE of San Jose Village, Northern Mariana Islands",1765839972207,1794870985082,earthquake,reviewed,0,496,32.0,4.3,3.865,green,91.0,24.0,1.058,145.8188,14.17,80.0
 us6000rv5e,5.4,mww,us,"70 km WSW of Lithakiá, Greece",1765842107437,1773181123040,earthquake,reviewed,0,449,1.0,2.0,3.562,green,81.0,47.0,1.449,20.1314,37.4097,16.436
 us6000rv70,4.5,mb,us,"29 km S of Ōfunato, Japan",1765853135766,1773181123040,earthquake,reviewed,0,312,,,,,51.0,123.0,2.05,141.7486,38.8057,94.269
 us7000rnng,4.5,mb,us,central Mid-Atlantic Ridge,1765856556884,1773181129040,earthquake,reviewed,0,312,,,,,16.0,98.0,9.137,-29.6473,0.8882,10.0
@@ -22694,7 +22694,7 @@ us7000rmrb,4.9,mb,us,"212 km E of Levuka, Fiji",1767668280827,1775599915040,eart
 us7000rmre,4.9,mb,us,"265 km N of Saipan, Northern Mariana Islands",1767669275504,1775599916040,earthquake,reviewed,0,369,,,,,154.0,99.0,2.363,145.6933,17.615,226.902
 us7000rmrl,4.9,mb,us,"Bonin Islands, Japan region",1767673880961,1775599916040,earthquake,reviewed,0,369,,,,,87.0,100.0,5.693,141.5946,27.6151,76.425
 us7000rms5,4.9,mb,us,south of the Kermadec Islands,1767682386862,1775599916040,earthquake,reviewed,0,369,,,,,25.0,219.0,5.709,-178.5246,-32.4675,35.0
-us7000rms9,5.2,mb,us,"181 km SSW of Merizo Village, Guam",1767682879551,1795504291177,earthquake,reviewed,0,416,,,,,68.0,55.0,3.869,143.7981,11.8652,10.0
+us7000rms9,5.2,mb,us,"181 km SSW of Merizo Village, Guam",1767682879551,1794899492757,earthquake,reviewed,0,416,,,,,68.0,55.0,3.869,143.7981,11.8652,10.0
 us7000rmsc,4.8,mb,us,"50 km SE of Vilyuchinsk, Russia",1767683795955,1775599916040,earthquake,reviewed,0,354,,,,,99.0,126.0,0.434,158.9807,52.6393,71.986
 ak2026ajuvvj,4.5,ml,ak,"34 km ENE of Port Alsworth, Alaska",1767686929534,1775599916040,earthquake,reviewed,1,337,105.0,2.4,2.214,,182.0,22.0,0.3,-153.728,60.293,188.8
 us7000rmuk,5.1,mww,us,"82 km NE of Port Mathurin, Mauritius",1767694166063,1775599916040,earthquake,reviewed,0,404,11.0,3.6,3.338,green,150.0,30.0,0.823,64.0,-19.1839,10.0
@@ -22956,7 +22956,7 @@ us7000rqnb,4.8,mb,us,"210 km NE of Lospalos, Timor Leste",1768860956777,17765236
 us6000s6h1,4.6,mb,us,"34 km W of Sangay, Philippines",1768861411480,1776523595040,earthquake,reviewed,0,326,,,,,24.0,87.0,1.949,123.7371,6.3936,10.0
 us7000rqnh,4.7,mb,us,"21 km SSE of Mendi, Papua New Guinea",1768861702174,1776523641040,earthquake,reviewed,0,340,,,,,40.0,103.0,4.175,143.7052,-6.3382,10.0
 us7000rqny,4.5,mb,us,"142 km WSW of Adak, Alaska",1768869126675,1776523642040,earthquake,reviewed,0,312,0.0,1.0,4.437,,73.0,119.0,0.467,-178.3582,51.1847,35.0
-ci41162719,4.92255584370382,mw,ci,"20 km NNE of Indio, CA",1768874174390,1795485985678,earthquake,reviewed,0,1003,8214.0,6.3,5.336,green,84.0,39.0,0.03155,-116.169333333333,33.894,3.09
+ci41162719,4.92255584370382,mw,ci,"20 km NNE of Indio, CA",1768874174390,1794881179484,earthquake,reviewed,0,1003,8214.0,6.3,5.336,green,84.0,39.0,0.03155,-116.169333333333,33.894,3.09
 us7000rqpn,4.7,mb,us,"151 km SSW of Nikolski, Alaska",1768876391613,1776523643040,earthquake,reviewed,0,340,,,2.614,,148.0,153.0,1.073,-169.8347,51.7177,10.0
 us7000rqqp,4.5,mb,us,"23 km WSW of Sangay, Philippines",1768883898947,1776523644040,earthquake,reviewed,0,312,,,,,32.0,67.0,1.858,123.8364,6.3903,10.0
 us7000rqqi,5.3,mww,us,"250 km ESE of Tadine, New Caledonia",1768883944583,1776523644040,earthquake,reviewed,0,432,,,,,62.0,101.0,2.456,170.0983,-22.4652,10.0
@@ -24672,9 +24672,9 @@ us6000spmf,4.6,mb,us,"109 km WNW of Ternate, Indonesia",1776085021445,1782318874
 us6000sprh,4.5,mb,us,"164 km SSE of Vilyuchinsk, Russia",1776105379304,1782318875040,earthquake,reviewed,0,312,,,,,76.0,138.0,1.84,159.3563,51.577,39.739
 us6000sprj,4.5,mb,us,"146 km ESE of Modisi, Indonesia",1776106462557,1782318875040,earthquake,reviewed,0,312,,,,,57.0,71.0,6.135,125.6445,-0.0738,35.0
 us6000ss3w,4.5,mb,us,south of Africa,1776108473381,1782318882040,earthquake,reviewed,0,312,,,,,21.0,80.0,20.069,22.38,-53.0546,10.0
-nn00914068,5.68,mwr,nn,"20 km ESE of Silver Springs, Nevada",1776130152123,1795484363426,earthquake,reviewed,0,1056,6515.0,5.6,6.549,green,28.0,111.0,0.394,-119.0075,39.3345,5.0
+nn00914068,5.68,mwr,nn,"20 km ESE of Silver Springs, Nevada",1776130152123,1794879557458,earthquake,reviewed,0,1056,6515.0,5.6,6.549,green,28.0,111.0,0.394,-119.0075,39.3345,5.0
 us6000spv5,4.7,mb,us,"96 km SSW of Severo-Kuril’sk, Russia",1776135110650,1782318876040,earthquake,reviewed,0,340,,,,,170.0,126.0,3.492,155.7276,49.8458,80.086
-us6000spva,5.4,mww,us,"Pagan region, Northern Mariana Islands",1776135860670,1795491275508,earthquake,reviewed,0,449,,,3.019,green,288.0,11.0,3.737,145.4573,18.9854,212.32
+us6000spva,5.4,mww,us,"Pagan region, Northern Mariana Islands",1776135860670,1794885264496,earthquake,reviewed,0,449,,,3.019,green,288.0,11.0,3.737,145.4573,18.9854,212.32
 us6000spxi,4.6,mb,us,"125 km WNW of Ternate, Indonesia",1776154240013,1782318877040,earthquake,reviewed,0,326,,,,,87.0,89.0,6.663,126.3106,1.128,39.944
 us6000spye,5.7,mwb,us,south of Africa,1776161596531,1782318877040,earthquake,reviewed,0,500,,,0.0,green,122.0,38.0,14.671,30.4071,-49.2889,10.0
 us6000spyf,4.5,mb,us,"24 km ENE of Canowindra, Australia",1776161991859,1782318877040,earthquake,reviewed,0,326,46.0,3.1,,,21.0,87.0,1.828,148.9129,-33.4877,10.0
@@ -28926,6 +28926,7 @@ us6000u32r,4.8,mb,us,"29 km SE of Kainantu, Papua New Guinea",1792283308720,1793
 us7000ttpt,4.5,mb,us,South Sandwich Islands region,1792298095520,1793924152040,earthquake,reviewed,0,312,,,,,15.0,95.0,6.261,-26.2736,-56.6077,71.45
 us7000ttpw,4.6,mb,us,"104 km SW of Panguna, Papua New Guinea",1792309046848,1793257683040,earthquake,reviewed,0,326,,,,,25.0,128.0,3.794,154.7886,-6.9605,10.0
 us6000u34e,5.2,mb,us,"60 km NNW of Ruteng, Indonesia",1792310405896,1793257898040,earthquake,reviewed,0,416,,,,,58.0,48.0,3.109,120.2865,-8.0974,10.0
+us6000u4b1,4.5,mb,us,Carlsberg Ridge,1792315838671,1794058944040,earthquake,reviewed,0,312,,,,,25.0,126.0,5.918,68.0129,-2.7253,10.0
 us7000ttq6,4.7,mb,us,"95 km ESE of Inarajan Village, Guam",1792321133500,1794048223040,earthquake,reviewed,0,340,,,,,45.0,80.0,0.926,145.5738,12.9642,10.0
 us6000u35l,4.6,mb,us,"Kermadec Islands, New Zealand",1792327342293,1794057601040,earthquake,reviewed,0,326,,,,,20.0,209.0,1.042,-177.3383,-30.1545,10.0
 us6000u366,4.7,mb,us,Carlsberg Ridge,1792333809034,1793388754040,earthquake,reviewed,0,340,,,,,32.0,88.0,5.996,67.0989,1.598,10.0
@@ -28994,7 +28995,7 @@ us6000u3ka,5.1,mb,us,"266 km WSW of Yanglong, China",1792478483230,1794058738040
 us6000u3kg,4.5,mb,us,"Pagan region, Northern Mariana Islands",1792480147721,1794407311040,earthquake,reviewed,0,312,,,,,89.0,81.0,3.688,145.4312,18.9265,237.205
 us6000u3l0,4.9,mb,us,"208 km NW of Port-Olry, Vanuatu",1792485596001,1794408722040,earthquake,reviewed,0,369,,,,,55.0,109.0,6.701,165.5238,-13.9175,10.0
 us6000u3l3,4.5,mb,us,"107 km SSW of Alo, Wallis and Futuna",1792486717443,1794317418040,earthquake,reviewed,0,312,,,,,50.0,33.0,2.442,-178.4444,-15.2282,417.047
-us6000u3lf,5.1,mww,us,"90 km S of Sand Point, Alaska",1792492840627,1795517443882,earthquake,reviewed,1,401,4.0,3.3,,,344.0,66.0,1.119,-160.2495,54.5346,35.0
+us6000u3lf,5.1,mww,us,"90 km S of Sand Point, Alaska",1792492840627,1794912654705,earthquake,reviewed,1,401,4.0,3.3,,,344.0,66.0,1.119,-160.2495,54.5346,35.0
 us6000u3li,4.9,mb,us,"190 km NW of Port-Olry, Vanuatu",1792496409938,1794472894040,earthquake,reviewed,0,369,,,,,86.0,101.0,6.705,165.7088,-13.9476,10.0
 us6000u3ln,4.5,mb,us,"31 km SW of Burias, Philippines",1792499540013,1794471666040,earthquake,reviewed,0,312,,,,,34.0,108.0,1.633,125.0497,5.5139,10.0
 us6000u3lx,4.6,mb,us,"148 km SSW of Abepura, Indonesia",1792502844190,1794437275040,earthquake,reviewed,0,326,,,,,40.0,53.0,1.441,139.994,-3.7782,10.0
@@ -29035,7 +29036,7 @@ us7000tu2a,4.5,mb,us,Reykjanes Ridge,1792610004285,1794511862040,earthquake,revi
 us6000u3y1,5.0,mb,us,"72 km NNW of Khorixas, Namibia",1792614890487,1794515515684,earthquake,reviewed,0,385,2.0,3.4,,,85.0,28.0,2.788,14.689,-19.7657,10.0
 us7000tu2c,4.5,mb,us,"175 km NW of Port-Olry, Vanuatu",1792615277786,1794515816040,earthquake,reviewed,0,312,,,,,36.0,124.0,6.727,165.8843,-13.9622,10.0
 us6000u3yj,5.4,mww,us,Reykjanes Ridge,1792618734747,1793726701239,earthquake,reviewed,0,449,,,0.0,green,110.0,36.0,7.277,-34.1891,56.7745,10.0
-us7000tu2e,4.5,mb,us,Reykjanes Ridge,1792619343455,1795472709040,earthquake,reviewed,0,312,,,,,27.0,164.0,7.298,-33.386,57.272,10.0
+us7000tu2e,4.5,mb,us,Reykjanes Ridge,1792619343293,1793326397040,earthquake,reviewed,0,312,,,,,26.0,164.0,12.641,-33.3392,57.2319,10.0
 us6000u3yp,5.1,mb,us,Reykjanes Ridge,1792619927808,1793326809040,earthquake,reviewed,0,400,,,,,99.0,36.0,7.273,-34.1158,56.8261,10.0
 us6000u3zp,5.0,mb,us,South Sandwich Islands region,1792628738804,1793942401040,earthquake,reviewed,0,385,,,,,31.0,72.0,5.643,-27.1072,-55.9779,59.265
 us6000u40r,4.5,mb,us,"107 km SW of El Palmarcito, Mexico",1792640116592,1794790425040,earthquake,reviewed,0,312,,,,,55.0,136.0,2.263,-93.9292,14.8122,44.171
@@ -29093,7 +29094,7 @@ us6000u4h0,4.6,mb,us,"71 km ENE of Kinablangan, Philippines",1792791664655,17939
 us6000u4h7,5.1,mww,us,"206 km NW of Port-Olry, Vanuatu",1792793111235,1793943681040,earthquake,reviewed,0,400,,,,,64.0,103.0,6.725,165.5628,-13.9002,10.0
 us6000u4hi,4.8,mww,us,"5 km NNE of Starobachaty, Russia",1792794255777,1794018417040,earthquake,reviewed,0,354,,,,,50.0,43.0,0.899,86.2299,54.2899,10.0
 us6000u4hr,4.9,mb,us,"121 km NE of Norsup, Vanuatu",1792795370908,1793946019040,earthquake,reviewed,0,369,,,,,27.0,74.0,6.368,168.3421,-15.456,10.0
-us6000u4hx,4.5,mb,us,"93 km NNW of Nikolski, Alaska",1792796906176,1795475308461,earthquake,reviewed,0,312,0.0,1.0,1.0,,60.0,59.0,0.603,-169.1944,53.7512,234.094
+us6000u4hx,4.5,mb,us,"93 km NNW of Nikolski, Alaska",1792796906176,1793946458491,earthquake,reviewed,0,312,0.0,1.0,1.0,,60.0,59.0,0.603,-169.1944,53.7512,234.094
 us6000u4i8,4.9,mb,us,"211 km ENE of Nagqu, China",1792800476225,1794006926040,earthquake,reviewed,0,369,,,,,55.0,57.0,8.776,93.9589,32.4809,10.0
 us6000u4ib,4.5,mb,us,"195 km NW of Port-Olry, Vanuatu",1792801664916,1794007640040,earthquake,reviewed,0,312,,,,,19.0,155.0,6.682,165.6357,-13.957,10.0
 us6000u4j2,6.8,mww,us,"203 km NW of Port-Olry, Vanuatu",1792809088880,1794011475601,earthquake,reviewed,1,715,7.0,4.8,4.721,green,131.0,21.0,6.689,165.5629,-13.9369,16.0
@@ -29354,11 +29355,11 @@ us7000tu4z,4.7,mb,us,"50 km SW of Port-Vila, Vanuatu",1793315088986,179488786817
 us7000twlj,4.7,mb,us,"221 km NW of Port-Olry, Vanuatu",1793320806709,1794783545040,earthquake,reviewed,0,340,,,,,23.0,120.0,6.681,165.3782,-13.9152,10.0
 us7000tu5q,5.1,mb,us,"97 km NNE of Finschhafen, Papua New Guinea",1793329457406,1793330313040,earthquake,reviewed,0,400,,,,,38.0,84.0,3.747,148.3151,-5.8137,116.297
 us7000tu6f,4.6,mb,us,"51 km ENE of Noda, Japan",1793336311595,1793337317040,earthquake,reviewed,0,326,,,,,53.0,142.0,1.098,142.3621,40.3108,56.598
-us7000tu6i,4.8,mb,us,Fiji region,1793337020363,1795512425040,earthquake,reviewed,0,354,,,,,67.0,81.0,3.773,-177.091,-18.1637,378.798
+us7000tu6i,4.8,mb,us,Fiji region,1793337019806,1793338023040,earthquake,reviewed,0,354,,,,,46.0,85.0,3.816,-177.0471,-18.1766,371.793
 us7000tu7b,4.6,mb,us,"54 km E of Nemuro, Japan",1793349951439,1794378810040,earthquake,reviewed,0,326,,,,,54.0,134.0,2.64,146.2412,43.3569,55.848
 us7000tu7j,5.1,mb,us,Balleny Islands region,1793355147789,1795451158040,earthquake,reviewed,0,400,,,,,52.0,63.0,15.284,155.3479,-62.4509,10.0
 us7000tu7k,4.5,mb,us,"108 km ENE of Barcelona, Philippines",1793355851171,1795447352040,earthquake,reviewed,0,312,,,,,37.0,123.0,2.229,127.3922,8.3984,10.0
-us7000tu7m,4.8,mb,us,"44 km SSE of Sykiá, Greece",1793357103684,1795504790040,earthquake,reviewed,0,354,,,,,119.0,36.0,1.393,24.2221,39.6973,10.0
+us7000tu7m,4.7,mb,us,"42 km SE of Sykiá, Greece",1793357103842,1793360254040,earthquake,reviewed,0,340,,,,,102.0,37.0,1.387,24.2284,39.7308,10.0
 us7000tu7p,4.5,mb,us,south of the Fiji Islands,1793357868379,1795450328040,earthquake,reviewed,0,312,,,,,59.0,121.0,6.074,179.8309,-23.6152,544.365
 us7000tumn,4.7,mb,us,"148 km NW of Port-Olry, Vanuatu",1793364057062,1793509010040,earthquake,reviewed,0,340,,,,,33.0,120.0,6.462,165.9597,-14.2547,10.0
 us7000tu83,4.5,mb,us,"69 km ENE of Kuji, Japan",1793366298931,1794155915040,earthquake,reviewed,0,312,,,,,25.0,134.0,1.147,142.5086,40.4619,44.569
@@ -29369,7 +29370,7 @@ us7000tufc,4.7,mb,us,"211 km NW of Port-Olry, Vanuatu",1793398495031,17948887150
 us7000tufp,4.6,mb,us,"31 km ENE of Mazo Cruz, Peru",1793400418158,1794889769040,earthquake,reviewed,0,326,,,,,58.0,114.0,0.988,-69.4636,-16.5964,193.718
 us7000tuuw,4.5,mb,us,"120 km E of Port-Olry, Vanuatu",1793404592771,1794782486040,earthquake,reviewed,0,312,,,,,21.0,83.0,6.76,168.1797,-14.8682,10.0
 us7000tugd,4.8,mb,us,"113 km ENE of Port-Olry, Vanuatu",1793406394830,1794891240040,earthquake,reviewed,0,354,,,,,36.0,114.0,6.766,168.1034,-14.8136,10.0
-us7000tugf,4.5,mb,us,"223 km SE of Katsuura, Japan",1793406766658,1795474813040,earthquake,reviewed,0,312,,,,,34.0,127.0,4.196,141.8146,33.5571,10.0
+us7000tugf,4.5,mb,us,"234 km SE of Katsuura, Japan",1793406766059,1794891606040,earthquake,reviewed,0,312,,,,,34.0,127.0,4.299,141.9228,33.502,10.0
 us7000tugs,4.6,mb,us,central Mid-Atlantic Ridge,1793414239763,1795241859040,earthquake,reviewed,0,326,,,,,29.0,83.0,12.849,-34.6156,7.0436,10.0
 us7000tx5g,4.5,mb,us,"213 km W of Sola, Vanuatu",1793415221763,1795242076040,earthquake,reviewed,0,312,,,,,25.0,155.0,6.853,165.5837,-13.7731,10.0
 us7000tugv,4.7,mb,us,"Izu Islands, Japan region",1793416453622,1795242225040,earthquake,reviewed,0,340,,,,,30.0,152.0,3.801,142.4889,30.9016,10.0
@@ -29422,9 +29423,9 @@ us7000tw7h,4.6,mb,us,Galapagos Triple Junction region,1793587236697,179478929104
 us7000tuts,4.7,mb,us,Mid-Indian Ridge,1793587425059,1795156183040,earthquake,reviewed,0,340,,,,,27.0,83.0,45.039,78.32,-35.5483,10.0
 us7000tutv,4.6,mb,us,"201 km NE of Kuril’sk, Russia",1793594748110,1793596280040,earthquake,reviewed,0,326,,,,,54.0,126.0,4.698,149.5786,46.6019,10.0
 us7000tuu0,4.8,mb,us,"178 km WNW of Panguna, Papua New Guinea",1793596789065,1795446110283,earthquake,reviewed,0,355,1.0,2.0,,,102.0,62.0,2.324,154.1077,-5.4789,78.602
-us7000tuuy,5.1,mb,us,"23 km WNW of Tomohon, Indonesia",1793607191325,1795510269040,earthquake,reviewed,0,400,,,,,180.0,29.0,5.757,124.6005,1.3581,170.272
+us7000tuuy,5.1,mb,us,"19 km WNW of Tomohon, Indonesia",1793607194014,1793608069040,earthquake,reviewed,0,400,,,,,77.0,59.0,5.716,124.6476,1.392,196.646
 us7000tuv5,4.9,mb,us,"105 km SW of Basco, Philippines",1793608965398,1795449303040,earthquake,reviewed,0,369,,,,,97.0,107.0,3.11,121.34,19.702,35.0
-us7000tuv8,4.9,mb,us,"107 km SSE of Palekastro, Greece",1793609962249,1795507071040,earthquake,reviewed,0,369,,,,,144.0,52.0,1.381,26.5404,34.2603,36.96
+us7000tuv8,4.7,mb,us,"100 km SSE of Palekastro, Greece",1793609962968,1793618487040,earthquake,reviewed,0,340,,,,,137.0,52.0,1.327,26.528,34.3232,40.168
 us7000txjw,4.5,mb,us,Mid-Indian Ridge,1793619799083,1794828002040,earthquake,reviewed,0,312,,,,,32.0,65.0,15.0,78.2674,-35.555,10.0
 us7000tuwq,4.5,mb,us,south of the Fiji Islands,1793626832912,1794767784040,earthquake,reviewed,0,312,,,,,26.0,136.0,2.804,-177.1888,-26.508,103.94
 us7000tuwv,4.7,mb,us,south of the Fiji Islands,1793628323152,1794768823040,earthquake,reviewed,0,340,,,,,89.0,75.0,4.259,179.6879,-25.5357,498.054
@@ -29440,8 +29441,8 @@ us7000tv3l,4.5,mb,us,"28 km E of Mawlaik, Burma (Myanmar)",1793683423498,1795247
 us7000tv3q,4.8,mwr,us,"4 km S of Narutō, Japan",1793684418280,1795248696561,earthquake,reviewed,0,355,2.0,3.1,,,82.0,124.0,2.047,140.4252,35.5565,49.685
 us7000twgy,4.6,mb,us,"267 km E of Port Mathurin, Mauritius",1793685758750,1795248616040,earthquake,reviewed,0,326,,,,,28.0,98.0,2.43,65.9241,-20.1217,10.0
 us7000tv4c,4.5,mb,us,"56 km NW of Finschhafen, Papua New Guinea",1793691833115,1793704216040,earthquake,reviewed,0,312,,,,,31.0,109.0,3.266,147.5576,-6.1411,67.39
-us7000tv4i,5.4,mww,us,"15 km NW of Chaparral, Colombia",1793697196656,1795516160316,earthquake,reviewed,0,516,141.0,4.8,5.666,green,184.0,39.0,1.638,-75.5968,3.8068,20.42
-us7000tv51,4.9,mb,us,"98 km SSE of Palekastro, Greece",1793703827243,1795507765040,earthquake,reviewed,0,369,,,,,143.0,43.0,1.296,26.563,34.3443,43.832
+us7000tv4i,5.4,mww,us,"24 km NNW of Rioblanco, Colombia",1793697194972,1794095455453,earthquake,reviewed,0,513,134.0,4.8,6.334,green,79.0,108.0,1.776,-75.7198,3.7386,10.0
+us7000tv51,4.9,mb,us,"101 km SSE of Palekastro, Greece",1793703827340,1793707287040,earthquake,reviewed,0,369,,,,,120.0,48.0,1.312,26.5713,34.3254,45.662
 us7000tv5i,5.0,mb,us,South Sandwich Islands region,1793712844565,1793897067040,earthquake,reviewed,0,385,,,,,95.0,45.0,7.225,-26.2903,-58.7979,133.113
 us7000tva7,4.8,mb,us,"85 km S of Gorontalo, Indonesia",1793720271082,1793724871040,earthquake,reviewed,0,354,,,,,126.0,35.0,5.842,123.1532,-0.2295,136.685
 us7000tvie,5.2,mww,us,"Volcano Islands, Japan region",1793724492006,1793896921040,earthquake,reviewed,0,416,,,,,203.0,16.0,9.615,141.6688,24.1773,129.171
@@ -29453,7 +29454,7 @@ us7000tvtj,5.2,mww,us,"98 km ESE of Kyzyl-Eshme, Kyrgyzstan",1793741648472,17944
 us7000txm2,4.6,mb,us,"63 km ESE of Kyzyl-Eshme, Kyrgyzstan",1793742253250,1794525107040,earthquake,reviewed,0,326,,,,,24.0,135.0,0.911,72.9703,39.3904,10.0
 us7000tvu9,4.5,mb,us,"99 km ESE of Kyzyl-Eshme, Kyrgyzstan",1793746233493,1794525910040,earthquake,reviewed,0,312,,,,,56.0,79.0,1.225,73.3843,39.3178,10.0
 us7000tvuv,4.6,mb,us,Fiji region,1793752380270,1794529904040,earthquake,reviewed,0,326,,,,,88.0,31.0,4.049,-177.4833,-19.216,562.894
-us7000tvwj,4.9,mb,us,"226 km ESE of Sarangani, Philippines",1793778013440,1795508689040,earthquake,reviewed,0,369,,,,,54.0,98.0,3.021,127.3448,4.5954,65.248
+us7000tvwj,5.0,mb,us,"207 km ESE of Sarangani, Philippines",1793778012288,1793779221040,earthquake,reviewed,0,385,,,,,33.0,111.0,3.03,127.0325,4.3895,49.074
 us7000tvxj,4.5,mb,us,"131 km S of Kokopo, Papua New Guinea",1793794485479,1795443720040,earthquake,reviewed,0,312,,,,,25.0,155.0,1.215,152.1047,-5.5189,10.0
 us7000twh7,4.6,mb,us,"113 km SSW of Colonia, Micronesia",1793804174934,1794934594040,earthquake,reviewed,0,326,,,,,45.0,82.0,8.671,137.5908,8.6384,10.0
 us7000txum,4.6,mb,us,Mid-Indian Ridge,1793807649946,1794935083040,earthquake,reviewed,0,326,,,,,21.0,84.0,44.856,78.3129,-35.5981,10.0
@@ -29462,7 +29463,7 @@ us7000tw3k,4.5,mb,us,"2 km W of Chinandega, Nicaragua",1793822126313,17938240020
 us7000tw3n,4.5,mb,us,South Indian Ocean,1793822766968,1793896265040,earthquake,reviewed,0,312,,,,,63.0,64.0,11.338,88.0827,-1.4064,10.0
 us7000tw43,4.6,mb,us,south of the Fiji Islands,1793827464314,1794533210040,earthquake,reviewed,0,326,,,,,61.0,88.0,4.49,179.9439,-25.1576,499.745
 us7000twh9,4.5,mb,us,West Chile Rise,1793842551731,1793972420040,earthquake,reviewed,0,312,,,,,17.0,194.0,9.921,-87.6046,-40.6911,10.0
-nc75462637,4.96,mw,nc,"111 km W of Petrolia, CA",1793854562670,1795496772803,earthquake,reviewed,1,434,145.0,3.8,2.816,green,134.0,246.0,0.9487,-125.585333333333,40.4073333333333,10.0
+nc75462637,4.96,mw,nc,"111 km W of Petrolia, CA",1793854562670,1795237571587,earthquake,reviewed,1,434,145.0,3.8,2.816,green,134.0,246.0,0.9487,-125.585333333333,40.4073333333333,10.0
 us7000tw76,5.1,mb,us,"19 km NNW of Masumbwe, Tanzania",1793870552714,1793993580384,earthquake,reviewed,0,411,20.0,5.3,6.214,green,46.0,62.0,5.602,32.149,-3.4641,10.0
 us7000tw7b,4.8,mb,us,Sea of Okhotsk,1793873373723,1793874271040,earthquake,reviewed,0,354,,,,,96.0,55.0,4.06,147.7534,49.2594,554.419
 us7000tw8p,5.0,mb,us,"135 km ENE of Thang, India",1793897786175,1794775284628,earthquake,reviewed,0,385,1.0,2.0,,,88.0,57.0,5.2,78.0343,35.6054,85.287
@@ -29481,8 +29482,7 @@ us7000twg3,4.5,mb,us,"91 km SSW of Vilyuchinsk, Russia",1793959978285,1794218705
 us7000twg9,6.1,mww,us,"144 km SE of Hasaki, Japan",1793961567869,1794186849255,earthquake,reviewed,0,589,39.0,4.2,0.0,green,134.0,32.0,3.545,142.1175,34.9677,29.0
 us7000twhq,4.5,mb,us,"110 km SE of Ierápetra, Greece",1793978817295,1794776484040,earthquake,reviewed,0,312,,,,,59.0,116.0,1.443,26.4639,34.2194,38.196
 us7000twmr,4.8,mb,us,"36 km WNW of Poso, Indonesia",1793992021269,1794002237040,earthquake,reviewed,0,354,,,,,92.0,56.0,9.022,120.4589,-1.2393,10.0
-us7000twqm,4.5,mb,us,"15 km NE of Yigo Village, Guam",1794004675815,1795475594414,earthquake,reviewed,0,313,4.0,3.1,,,45.0,64.0,0.129,144.9958,13.6294,122.971
-us7000ty25,4.6,mb,us,southeast of the Loyalty Islands,1794005856054,1795479136040,earthquake,reviewed,0,326,,,,,14.0,161.0,3.813,171.5283,-23.2554,10.0
+us7000twqm,4.6,mb,us,"11 km ENE of Yigo Village, Guam",1794004674867,1794053992255,earthquake,reviewed,0,327,4.0,3.1,,,43.0,80.0,1.828,144.9932,13.5679,113.394
 us7000twqr,4.5,mb,us,"55 km WNW of Sabang, Indonesia",1794034447341,1795331960040,earthquake,reviewed,0,312,,,,,32.0,121.0,5.823,94.8483,6.0594,83.138
 us7000twqw,4.6,mb,us,South Sandwich Islands region,1794035650751,1795332233040,earthquake,reviewed,0,326,,,,,47.0,69.0,7.025,-25.8077,-57.9857,102.798
 us7000ty2h,4.6,mb,us,"133 km SSE of Kokopo, Papua New Guinea",1794043362204,1794641396040,earthquake,reviewed,0,326,,,,,23.0,155.0,1.385,152.7886,-5.4363,10.0
@@ -29497,7 +29497,6 @@ us7000twt0,5.5,mww,us,"9 km E of Shinshiro, Japan",1794067475556,1794926178429,e
 us7000twt8,4.7,mb,us,"45 km NNW of Salinas, Ecuador",1794071858931,1794073035040,earthquake,reviewed,0,340,,,,,60.0,143.0,1.982,-81.1439,-1.8505,10.0
 us7000twtv,4.5,mb,us,"65 km WSW of Masachapa, Nicaragua",1794081310891,1794082383040,earthquake,reviewed,0,312,,,,,63.0,174.0,1.818,-87.0544,11.526,37.054
 us7000twu1,4.7,mb,us,"43 km ESE of Ambon, Indonesia",1794084938512,1794086342040,earthquake,reviewed,0,340,,,,,47.0,59.0,8.803,128.5121,-3.905,136.656
-us7000twum,4.5,mb,us,"91 km ESE of Kyzyl-Eshme, Kyrgyzstan",1794093273844,1795501318040,earthquake,reviewed,0,312,,,,,19.0,164.0,1.173,73.3058,39.3574,10.0
 us7000twun,5.8,mww,us,central Mid-Atlantic Ridge,1794093425477,1794180171933,earthquake,reviewed,0,518,,,0.0,green,146.0,86.0,13.232,-36.8221,7.4618,10.0
 us7000twuq,4.5,mb,us,"77 km SW of La Gomera, Guatemala",1794093755649,1794098384040,earthquake,reviewed,0,312,,,,,25.0,209.0,1.679,-91.4602,13.5083,34.237
 us7000twur,4.9,mb,us,"41 km WSW of Gadung, Philippines",1794093935852,1794094868040,earthquake,reviewed,0,369,,,,,67.0,57.0,1.945,123.6541,6.706,607.007
@@ -29576,7 +29575,7 @@ us7000txpk,4.6,mb,us,"73 km NNW of Gyalshing, India",1794438022433,1794607664819
 us7000txqa,4.8,mb,us,"43 km SE of Severo-Kuril’sk, Russia",1794446324576,1794447189040,earthquake,reviewed,0,354,,,,,60.0,121.0,2.756,156.6137,50.4399,74.47
 us7000txqr,5.4,mb,us,South Sandwich Islands region,1794455156644,1794541770821,earthquake,reviewed,0,449,,,3.22,green,67.0,69.0,7.471,-26.0288,-59.0326,121.557
 us7000txqx,4.8,mb,us,"155 km E of Noda, Japan",1794456452379,1794457701040,earthquake,reviewed,0,354,,,,,46.0,142.0,1.689,143.6115,40.3593,33.039
-us7000txrk,4.5,mb,us,off the coast of Oregon,1794471448248,1795508859803,earthquake,reviewed,0,312,1.0,2.0,,,52.0,197.0,3.021,-129.63,44.448,10.0
+us7000txrk,4.5,mb,us,off the coast of Oregon,1794471448248,1795422456574,earthquake,reviewed,0,312,1.0,2.0,,,52.0,197.0,3.021,-129.63,44.448,10.0
 us7000txs5,4.7,mb,us,"83 km NE of Ruteng, Indonesia",1794482189434,1794558316040,earthquake,reviewed,0,340,,,,,32.0,128.0,3.273,120.9934,-8.0655,10.0
 us7000txsr,4.5,mb,us,"2 km WNW of Hasaki, Japan",1794490038232,1795377218040,earthquake,reviewed,0,312,,,,,31.0,135.0,2.245,140.8035,35.7429,42.488
 us7000txtd,4.5,mb,us,"119 km ESE of Bitung, Indonesia",1794495513521,1795381869040,earthquake,reviewed,0,312,,,,,47.0,87.0,5.48,126.1566,1.1155,50.434
@@ -29634,8 +29633,8 @@ us7000tyes,4.6,mb,us,"27 km ESE of Union, Philippines",1794752272535,17947714790
 us7000tyf4,5.1,mb,us,"169 km NW of Gorontalo, Indonesia",1794757274978,1794758352040,earthquake,reviewed,0,400,,,,,97.0,65.0,6.299,122.1345,1.7527,487.384
 us7000tyfh,5.0,mww,us,"74 km N of Pārūn, Afghanistan",1794764916959,1794766098040,earthquake,reviewed,0,385,,,,,96.0,55.0,2.165,70.9503,36.0947,100.728
 us7000tyg6,5.0,mb,us,"256 km SSE of Ambon, Indonesia",1794775916298,1794776943040,earthquake,reviewed,0,385,,,,,90.0,41.0,7.246,128.7523,-5.9449,305.989
-us7000tyga,4.9,mww,us,"41 km S of Jurm, Afghanistan",1794778641794,1795473134040,earthquake,reviewed,0,369,,,,,74.0,55.0,2.244,70.8326,36.4923,196.642
-us7000tygk,4.8,mb,us,"144 km ESE of Petropavlovsk-Kamchatsky, Russia",1794782298982,1795476613040,earthquake,reviewed,0,354,,,,,43.0,134.0,1.833,160.5263,52.4669,10.0
+us7000tyga,4.9,mww,us,"44 km S of Jurm, Afghanistan",1794778641082,1794780978040,earthquake,reviewed,0,369,,,,,67.0,56.0,2.431,70.9205,36.4657,191.363
+us7000tygk,4.8,mb,us,"141 km ESE of Petropavlovsk-Kamchatsky, Russia",1794782299154,1794783773040,earthquake,reviewed,0,354,,,,,29.0,138.0,1.805,160.494,52.4937,10.0
 us7000tyhr,5.4,mww,us,"20 km NW of Anamizu, Japan",1794803051718,1794890012722,earthquake,reviewed,0,449,,,2.929,green,152.0,66.0,1.428,136.7444,37.3664,273.644
 us7000tyil,5.0,mb,us,"68 km S of Sarangani, Philippines",1794813254483,1794815737040,earthquake,reviewed,0,385,,,,,51.0,104.0,2.275,125.4267,4.7842,10.0
 us7000tyjx,4.5,mb,us,"78 km S of Severo-Kuril’sk, Russia",1794835521731,1794841605040,earthquake,reviewed,0,312,,,,,87.0,122.0,3.321,155.9172,49.9837,85.011
@@ -29664,7 +29663,7 @@ us7000tyyp,4.6,mb,us,"10 km ESE of Metahāra, Ethiopia",1794955925954,1795039207
 us7000tyvt,4.5,mb,us,Owen Fracture Zone region,1794957933527,1794975639040,earthquake,reviewed,0,312,,,,,37.0,112.0,11.943,57.6884,13.022,10.0
 us7000tyw6,5.3,mb,us,"7 km SE of Karakenja, Tajikistan",1794962791418,1794978320040,earthquake,reviewed,0,432,,,,,45.0,99.0,0.33,71.5875,39.1912,10.0
 us7000tyw8,5.3,mww,us,"17 km ESE of Comandău, Romania",1794962936305,1795465805087,earthquake,reviewed,0,618,422.0,4.4,4.134,green,96.0,39.0,2.144,26.4521,45.6816,132.362
-us7000tywi,5.8,mww,us,"150 km SW of Merizo Village, Guam",1794968576671,1795487578759,earthquake,reviewed,0,520,8.0,3.3,0.0,green,92.0,38.0,3.591,143.8866,12.1387,10.0
+us7000tywi,5.8,mww,us,"150 km SW of Merizo Village, Guam",1794968576671,1795401181981,earthquake,reviewed,0,520,8.0,3.3,0.0,green,92.0,38.0,3.591,143.8866,12.1387,10.0
 us7000tywx,4.8,mb,us,"134 km ENE of Nabire, Indonesia",1794972238023,1794973354040,earthquake,reviewed,0,354,,,,,38.0,73.0,10.739,136.6576,-2.9907,10.0
 us7000tyx2,5.8,mww,us,"99 km ESE of Madang, Papua New Guinea",1794973354269,1795065762278,earthquake,reviewed,0,519,5.0,3.4,4.475,green,65.0,29.0,3.724,146.5479,-5.7009,52.291
 us7000tyxc,5.2,mb,us,"54 km NNE of Ruteng, Indonesia",1794975695658,1794982856413,earthquake,reviewed,0,416,1.0,3.4,,,40.0,87.0,3.241,120.6489,-8.151,10.0
