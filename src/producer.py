@@ -1,13 +1,3 @@
-"""
-Stage 2a - Kafka Producer: send the collected records to a Kafka topic.
-
-Input: data/raw/records.json (from src.api_client)
-Each record is serialized to JSON and sent as one message (key = earthquake id).
-
-Run from the project root (Kafka must be running: docker compose up -d):
-    python -m src.producer
-"""
-
 import json
 
 from confluent_kafka import KafkaException, Producer
@@ -20,7 +10,6 @@ TOPIC = "usgs_earthquakes"
 
 
 def ensure_topic():
-    """Check the broker connection and create the topic if it does not exist."""
     admin = AdminClient({"bootstrap.servers": BOOTSTRAP_SERVERS})
     try:
         topics = admin.list_topics(timeout=10).topics
@@ -38,7 +27,6 @@ def publish(records):
     result = {"published": 0, "failed": 0}
 
     def on_delivery(err, msg):
-        # Called by Kafka for every message: confirms delivery or reports an error
         if err is None:
             result["published"] += 1
         else:
@@ -46,16 +34,16 @@ def publish(records):
             print(f"Delivery failed: {err}")
 
     for record in records:
-        value = json.dumps(record).encode("utf-8")   # serialize: dict -> JSON bytes
+        value = json.dumps(record).encode("utf-8")
         while True:
             try:
                 producer.produce(TOPIC, key=record["id"], value=value, on_delivery=on_delivery)
                 break
-            except BufferError:          # local queue full -> let Kafka send some first
+            except BufferError:
                 producer.poll(0.5)
-        producer.poll(0)                 # trigger delivery callbacks
+        producer.poll(0)
 
-    not_sent = producer.flush(timeout=60)   # wait until all messages are delivered
+    not_sent = producer.flush(timeout=60)
     result["failed"] += not_sent
     return result
 

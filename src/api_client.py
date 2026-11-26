@@ -1,15 +1,3 @@
-"""
-Stage 1 - Collect earthquake data from the USGS Earthquake Catalog API.
-
-API:    https://earthquake.usgs.gov/fdsnws/event/1/query  (public, no API key)
-Output: data/raw/pages/*.json        unchanged API responses (original data)
-        data/raw/records.json        flat records -> Kafka producer
-        data/raw_data.csv            same records as a table
-
-Run from the project root:
-    python -m src.api_client
-"""
-
 import argparse
 import json
 import time
@@ -20,11 +8,10 @@ import requests
 
 API_URL = "https://earthquake.usgs.gov/fdsnws/event/1/query"
 
-# Fixed period so every run returns the same dataset (reproducible results)
 START_DATE = "2023-01-01T00:00:00"
 END_DATE = "2026-11-18T14:19:58"
 MIN_MAGNITUDE = 4.5
-PAGE_SIZE = 2000      # records per request
+PAGE_SIZE = 2000
 MAX_RETRIES = 3
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
@@ -40,12 +27,11 @@ FIELDS = [
 
 
 def fetch_page(params):
-    """Send one GET request. Retry on network errors, stop on bad responses."""
     for attempt in range(1, MAX_RETRIES + 1):
         try:
             response = requests.get(API_URL, params=params, timeout=60)
-            response.raise_for_status()          # HTTP 4xx / 5xx -> error
-            data = response.json()               # invalid JSON -> error
+            response.raise_for_status()
+            data = response.json()
             if "features" not in data:
                 raise ValueError("Response has no 'features' key")
             return data
@@ -54,14 +40,13 @@ def fetch_page(params):
             time.sleep(2 * attempt)
         except requests.HTTPError as err:
             print(f"  HTTP error {err.response.status_code}: {err.response.text[:200]}")
-            if err.response.status_code < 500:   # client error -> retrying won't help
+            if err.response.status_code < 500:
                 break
             time.sleep(2 * attempt)
     raise RuntimeError(f"Request failed after {MAX_RETRIES} attempts: {params}")
 
 
 def flatten(feature):
-    """Turn one GeoJSON feature into one flat record."""
     props = feature["properties"]
     longitude, latitude, depth_km = feature["geometry"]["coordinates"]
     record = {field: props.get(field) for field in FIELDS}
@@ -69,8 +54,8 @@ def flatten(feature):
     return record
 
 
+# split by year because USGS query limit is 20,000 records
 def yearly_periods(start, end):
-    """Split the date range by year (one USGS query may return at most 20,000 events)."""
     periods = []
     for year in range(int(start[:4]), int(end[:4]) + 1):
         period_start = max(start, f"{year}-01-01T00:00:00")
@@ -94,19 +79,18 @@ def collect(start=START_DATE, end=END_DATE, min_mag=MIN_MAGNITUDE):
                 "eventtype": "earthquake",
                 "orderby": "time-asc",
                 "limit": PAGE_SIZE,
-                "offset": 1 + (page - 1) * PAGE_SIZE,   # USGS offset starts at 1
+                "offset": 1 + (page - 1) * PAGE_SIZE,
             }
             data = fetch_page(params)
             features = data["features"]
 
-            # Save the original response unchanged
             page_file = PAGES_DIR / f"usgs_{label}_page_{page:02d}.json"
             page_file.write_text(json.dumps(data), encoding="utf-8")
 
             records.extend(flatten(f) for f in features)
             print(f"{label} page {page}: {len(features)} records")
 
-            if len(features) < PAGE_SIZE:   # last page of this year
+            if len(features) < PAGE_SIZE:
                 break
             page += 1
 
@@ -119,7 +103,6 @@ def collect(start=START_DATE, end=END_DATE, min_mag=MIN_MAGNITUDE):
 
 
 def load_records():
-    """Used by the producer."""
     return json.loads(RECORDS_PATH.read_text(encoding="utf-8"))
 
 

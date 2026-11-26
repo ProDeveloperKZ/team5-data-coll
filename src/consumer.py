@@ -1,14 +1,3 @@
-"""
-Stage 2b - Kafka Consumer: read the messages from the Kafka topic.
-
-Each message is deserialized from JSON back into a record.
-Stops when no new message arrives for IDLE_TIMEOUT seconds (or after --max-messages).
-Output: data/processed/consumed_earthquakes.csv (-> Pandera validator)
-
-Run from the project root:
-    python -m src.consumer
-"""
-
 import argparse
 import json
 import time
@@ -21,7 +10,7 @@ from src.api_client import FIELDS
 from src.producer import BOOTSTRAP_SERVERS, TOPIC
 
 GROUP_ID = "sis2-usgs-consumer-group"
-IDLE_TIMEOUT = 10  # seconds without new messages -> stop
+IDLE_TIMEOUT = 10  # stop if no new messages for 10s
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 OUTPUT_PATH = PROJECT_ROOT / "data" / "consumed" / "consumed_earthquakes.csv"
@@ -31,8 +20,8 @@ def consume(max_messages=None):
     consumer = Consumer({
         "bootstrap.servers": BOOTSTRAP_SERVERS,
         "group.id": GROUP_ID,
-        "auto.offset.reset": "earliest",  # new group -> start from the first message
-        "enable.auto.commit": False,      # we commit the position ourselves
+        "auto.offset.reset": "earliest",
+        "enable.auto.commit": False,
     })
     consumer.subscribe([TOPIC])
 
@@ -56,7 +45,7 @@ def consume(max_messages=None):
 
             last_message_time = time.time()
             try:
-                records.append(json.loads(msg.value().decode("utf-8")))  # deserialize
+                records.append(json.loads(msg.value().decode("utf-8")))
             except (UnicodeDecodeError, json.JSONDecodeError) as err:
                 bad_messages += 1
                 print(f"Skipped bad message at offset {msg.offset()}: {err}")
@@ -66,7 +55,7 @@ def consume(max_messages=None):
                 break
 
         if records or bad_messages:
-            consumer.commit(asynchronous=False)  # save position: next run continues from here
+            consumer.commit(asynchronous=False)
     finally:
         consumer.close()
 
