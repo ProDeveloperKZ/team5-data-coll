@@ -43,7 +43,7 @@ def fetch_page(params):
             time.sleep(2 * attempt)
     raise RuntimeError(f"Request failed after {MAX_RETRIES} attempts: {params}")
 
-# takes GeoJSON-object 
+# takes GeoJSON-object and unpacks properties + coordinates into flat dict
 def flatten(feature):
     props = feature["properties"]
     longitude, latitude, depth_km = feature["geometry"]["coordinates"]
@@ -82,12 +82,14 @@ def collect(start=START_DATE, end=END_DATE, min_mag=MIN_MAGNITUDE):
             data = fetch_page(params)
             features = data["features"]
 
+            # save raw page before flattening
             page_file = PAGES_DIR / f"usgs_{label}_page_{page:02d}.json"
             page_file.write_text(json.dumps(data), encoding="utf-8")
 
             records.extend(flatten(f) for f in features)
             print(f"{label} page {page}: {len(features)} records")
 
+            # less than 2000 means last page of this year
             if len(features) < PAGE_SIZE:
                 break
             page += 1

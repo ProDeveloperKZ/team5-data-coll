@@ -1,6 +1,8 @@
+# Serialization and publishing of earthquake records to Kafka topic
+
 import json
 
-from confluent_kafka import KafkaException, Producer
+from confluent_kafka import KafkaException, Producer #library for producing messages to Kafka
 from confluent_kafka.admin import AdminClient, NewTopic
 
 from src.api_client import load_records
@@ -9,7 +11,8 @@ BOOTSTRAP_SERVERS = "localhost:9092"
 TOPIC = "usgs_earthquakes"
 
 
-def ensure_topic():
+# check connection to broker and create topic if missing
+def ensure_topic(): 
     admin = AdminClient({"bootstrap.servers": BOOTSTRAP_SERVERS})
     try:
         topics = admin.list_topics(timeout=10).topics
@@ -26,6 +29,7 @@ def publish(records):
     producer = Producer({"bootstrap.servers": BOOTSTRAP_SERVERS, "acks": "all"})
     result = {"published": 0, "failed": 0}
 
+    # delivery callback from broker
     def on_delivery(err, msg):
         if err is None:
             result["published"] += 1
@@ -34,16 +38,16 @@ def publish(records):
             print(f"Delivery failed: {err}")
 
     for record in records:
-        value = json.dumps(record).encode("utf-8")
+        value = json.dumps(record).encode("utf-8") # dict to utf-8 json bytes
         while True:
             try:
                 producer.produce(TOPIC, key=record["id"], value=value, on_delivery=on_delivery)
                 break
-            except BufferError:
+            except BufferError: # local queue full, wait a bit
                 producer.poll(0.5)
         producer.poll(0)
 
-    not_sent = producer.flush(timeout=60)
+    not_sent = producer.flush(timeout=60) # wait for all messages to be delivered
     result["failed"] += not_sent
     return result
 

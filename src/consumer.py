@@ -1,3 +1,5 @@
+# Deserialization and consumption of earthquake records from Kafka topic
+
 import argparse
 import json
 import time
@@ -17,6 +19,7 @@ OUTPUT_PATH = PROJECT_ROOT / "data" / "consumed" / "consumed_earthquakes.csv"
 
 
 def consume(max_messages=None):
+    # start from earliest message, commit offset manually at the end
     consumer = Consumer({
         "bootstrap.servers": BOOTSTRAP_SERVERS,
         "group.id": GROUP_ID,
@@ -32,6 +35,7 @@ def consume(max_messages=None):
         while True:
             msg = consumer.poll(timeout=1.0)
 
+            # stop if no new messages arrive within 10 seconds
             if msg is None:
                 if time.time() - last_message_time > IDLE_TIMEOUT:
                     print(f"No new messages for {IDLE_TIMEOUT}s -> stopping")
@@ -45,6 +49,7 @@ def consume(max_messages=None):
 
             last_message_time = time.time()
             try:
+                # deserialize utf-8 json bytes back to dict
                 records.append(json.loads(msg.value().decode("utf-8")))
             except (UnicodeDecodeError, json.JSONDecodeError) as err:
                 bad_messages += 1
@@ -54,6 +59,7 @@ def consume(max_messages=None):
                 print(f"Reached --max-messages={max_messages} -> stopping")
                 break
 
+        # save committed offset in kafka
         if records or bad_messages:
             consumer.commit(asynchronous=False)
     finally:
