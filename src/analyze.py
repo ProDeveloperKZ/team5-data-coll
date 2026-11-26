@@ -7,7 +7,7 @@ from matplotlib.colors import BoundaryNorm
 from matplotlib.colors import PowerNorm
 
 def prepare_data_frame(df):
-    dates = pd.to_datetime(df["time"], unit = "ms", utc = True)
+    dates = pd.to_datetime(df["time"], utc = True)
     df["year-month"] = dates.dt.strftime("%Y-%m")
     rows = np.floor((df["latitude"]+90)/30).astype(int)
     rows = rows.clip(upper = 5)
