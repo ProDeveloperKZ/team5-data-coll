@@ -113,7 +113,7 @@ def collect(start=START_DATE, end=END_DATE, min_mag=MIN_MAGNITUDE):
     if len(records) < 200:
         raise ValueError(f"Only {len(records)} records collected, need at least 200")
 
-    RECORDS_PATH.write_text(json.dumps(records), encoding="utf-8")
+    RECORDS_PATH.write_text(json.dumps(records, indent=2), encoding="utf-8")
     pd.DataFrame(records, columns=FIELDS).to_csv(RAW_CSV_PATH, index=False)
     return records
 
