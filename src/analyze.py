@@ -7,7 +7,7 @@ from matplotlib.colors import BoundaryNorm
 from matplotlib.colors import PowerNorm
 
 def prepare_data_frame(df):
-    dates = pd.to_datetime(df["time"], utc = True)
+    dates = pd.to_datetime(df["time"], format="ISO8601", utc=True)
     df["year-month"] = dates.dt.strftime("%Y-%m")
     rows = np.floor((df["latitude"]+90)/30).astype(int)
     rows = rows.clip(upper = 5)
@@ -281,7 +281,7 @@ def database_review(df):
     print("\nStructure of database:")
     df.info()
     print(df.describe())
-    print(df.describe(include="string"))
+    print(df.describe(include=["object", "string"]))
 
 def mean_by_month(df):
     month_order = [
