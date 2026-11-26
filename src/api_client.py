@@ -2,10 +2,8 @@ import argparse
 import json
 import time
 from pathlib import Path
-
 import pandas as pd
 import requests
-
 API_URL = "https://earthquake.usgs.gov/fdsnws/event/1/query"
 
 START_DATE = "2023-01-01T00:00:00"
@@ -25,7 +23,7 @@ FIELDS = [
     "longitude", "latitude", "depth_km",
 ]
 
-
+# HTTP GET, 3 retries, 60s timeout, exponential backoff
 def fetch_page(params):
     for attempt in range(1, MAX_RETRIES + 1):
         try:
@@ -45,7 +43,7 @@ def fetch_page(params):
             time.sleep(2 * attempt)
     raise RuntimeError(f"Request failed after {MAX_RETRIES} attempts: {params}")
 
-
+# takes GeoJSON-object 
 def flatten(feature):
     props = feature["properties"]
     longitude, latitude, depth_km = feature["geometry"]["coordinates"]
@@ -54,7 +52,7 @@ def flatten(feature):
     return record
 
 
-# split by year because USGS query limit is 20,000 records
+# split by year because USGS query limit is 20,000 records (initially more than 30k records for 2023-2026)
 def yearly_periods(start, end):
     periods = []
     for year in range(int(start[:4]), int(end[:4]) + 1):
@@ -97,7 +95,8 @@ def collect(start=START_DATE, end=END_DATE, min_mag=MIN_MAGNITUDE):
     if len(records) < 200:
         raise ValueError(f"Only {len(records)} records collected, need at least 200")
 
-    RECORDS_PATH.write_text(json.dumps(records, indent=2), encoding="utf-8")
+    lines = [json.dumps(r) for r in records]
+    RECORDS_PATH.write_text("[\n  " + ",\n  ".join(lines) + "\n]\n", encoding="utf-8")
     pd.DataFrame(records, columns=FIELDS).to_csv(RAW_CSV_PATH, index=False)
     return records
 
